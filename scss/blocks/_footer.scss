@@ -1,0 +1,86 @@
+@import '../mixin';
+@import '../variables';
+
+.four__items-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    height: 400px;
+    background-color: black;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.email p{
+    @include foot;
+    margin-left: 10px
+}
+.phone p{
+    @include foot;
+    margin-left: 10px;
+}
+.first__item-one p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: serif;
+    color: #E3E3E3;
+    margin-top: 10px;
+}
+.first__item-one{
+    margin-left: 140px;
+}
+.fourth__item{
+    margin-right: 140px;
+}
+.second__item h2{
+    @include footh2;
+    margin-bottom: 40px;
+}
+.third__item-one h2{
+    @include footh2;
+    position: relative;
+    bottom: 40px;
+}
+.third__item-one a{
+    padding-left: 10px;
+    position: relative;
+    right: 8px;
+}
+.fourth__item input{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+    align-items: center;
+    padding-right: 70px;
+    padding-left: 20px
+}
+.fourth__item h2{
+    @include footh2;
+    position: relative;
+    bottom: 10px;
+}
+.fourth__item{
+    width: 200px;
+    flex-wrap: wrap;
+}
+.fourth__item p{
+    @include foot;
+}
+.fourth__item a{
+    align-items: center;
+    padding: 12px;
+    width: 296px;
+    height: 48px;
+    background: #FDEC57;
+    border-radius: 8px;
+    padding: 13.5px 13.5px 13.5px 16px;
+    padding-left: 20px;
+    text-align: center;
+    @include foota;
+}
